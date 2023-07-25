@@ -1,5 +1,5 @@
 {
-  "name": "credit-card-type",
+  "name": "@towerguards/credit-card-type",
   "version": "9.1.0",
   "description": "A library for determining credit card type",
   "main": "dist/index.js",
