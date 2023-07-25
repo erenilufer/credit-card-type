@@ -9,7 +9,6 @@
     "posttest": "npm run lint",
     "test": "jest",
     "prepublishOnly": "npm run build",
-    "prebuild": "prettier --write .",
     "build": "tsc --declaration"
   },
   "repository": {
