@@ -196,9 +196,9 @@ const cardTypes: CardCollection = {
     type: "troy",
     patterns: [9792, [6500, 6599], 2205, 36],
     gaps: [4, 8, 12],
-    lengths: [14,16],
+    lengths: [14, 16],
     code: {
-      name: 'CVV',
+      name: "CVV",
       size: 3,
     },
   } as BuiltInCreditCardType,

@@ -112,6 +112,19 @@ creditCardType.addCard = (config: CreditCardType): void => {
   }
 };
 
+creditCardType.addCard({
+  niceType: "Troy",
+  type: "troy",
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
+  patterns: [9792, [6500, 6599], 2205, 36],
+  gaps: [4, 8, 12],
+  lengths: [14, 16],
+  code: {
+    name: "CVV",
+    size: 3,
+  },
+});
 creditCardType.updateCard = (
   cardType: string,
   updates: Partial<CreditCardType>
