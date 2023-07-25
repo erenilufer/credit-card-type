@@ -1,6 +1,6 @@
 {
   "name": "@towerguards/credit-card-type",
-  "version": "9.1.0",
+  "version": "9.1.1",
   "description": "A library for determining credit card type",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,6 +9,7 @@
     "posttest": "npm run lint",
     "test": "jest",
     "prepublishOnly": "npm run build",
+    "prebuild": "prettier --write .",
     "build": "tsc --declaration"
   },
   "repository": {
