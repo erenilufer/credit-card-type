@@ -24,6 +24,7 @@ const cardNames: Record<string, CreditCardTypeCardBrandId> = {
   MIR: "mir",
   HIPER: "hiper",
   HIPERCARD: "hipercard",
+  TROY: "troy",
 };
 
 const ORIGINAL_TEST_ORDER = [
